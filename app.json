@@ -12,10 +12,5 @@
     "lavalink",
     "dashboard"
   ],
-  "image": "heroku/docker",
-  "buildpacks": [
-    {
-      "url": "heroku/docker"
-    }
-  ]
+  "stack": "container"
 }
